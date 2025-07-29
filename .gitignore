@@ -20,6 +20,8 @@ dataset/
 *.csv
 *.sqlite
 *.parquet
+fix_notebook_for_github.py
+GITHUB_FIX_SUMMARY.md
 
 # Config
 config.py

@@ -109,7 +109,9 @@ jupyter-lab
 │   ├── erd.png
 │   └── ...
 ├── .gitignore
-├── analysis.ipynb        # Jupyter Notebook for data analysis
+├── analysis.ipynb        # Jupyter Notebook for data analysis (GitHub-compatible)
+├── analysis_github_fixed.ipynb  # Fixed version for GitHub rendering
+├── fix_notebook_for_github.py   # Script to fix notebook for GitHub
 ├── config.py             # Local DB configuration (ignored by Git)
 ├── config_template.py    # Template for config file
 ├── etl_pipeline.py       # Main ETL script
@@ -118,6 +120,16 @@ jupyter-lab
 ├── requirements.txt      # Python package dependencies
 └── yelp_etl.log          # Log file for the ETL process
 ```
+
+## GitHub Rendering Fix
+
+The notebook has been optimized for GitHub rendering. The key changes include:
+
+- **Static Plotting**: Added matplotlib configuration for non-interactive backend
+- **Image Display**: Replaced interactive `fig.show()` calls with static `display(Image())` calls
+- **Plot Saving**: All plots are saved to the `screenshots/` directory and displayed as static images
+
+This ensures that all visualizations render properly when viewing the notebook on GitHub.
 
 ## Scope of Analysis
 
