@@ -1,0 +1,25 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+env/
+yelp_venv/
+
+# IDE and system files
+.idea/
+.vscode/
+.DS_Store
+
+# Data folders and logs
+data/
+dataset/
+*.log
+*.json
+*.csv
+*.sqlite
+*.parquet
+
+# Config
+config.py
