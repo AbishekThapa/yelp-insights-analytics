@@ -118,17 +118,6 @@ jupyter-lab
 ├── requirements.txt      # Python package dependencies
 └── yelp_etl.log          # Log file for the ETL process
 ```
-
-## GitHub Rendering Fix
-
-The notebook has been optimized for GitHub rendering. The key changes include:
-
-- **Static Plotting**: Added matplotlib configuration for non-interactive backend
-- **Image Display**: Replaced interactive `fig.show()` calls with static `display(Image())` calls
-- **Plot Saving**: All plots are saved to the `screenshots/` directory and displayed as static images
-
-This ensures that all visualizations render properly when viewing the notebook on GitHub.
-
 ## Scope of Analysis
 
 A comprehensive analysis was performed to answer a wide range of questions about the Yelp ecosystem. Key analyses include:
