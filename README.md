@@ -1,6 +1,6 @@
 # Yelp Dataset ETL and Analysis Project
 
-This project provides a comprehensive framework for performing an Extract, Transform, Load (ETL) process on the official Yelp Academic Dataset. Data is extracted from large JSON files, loaded into a PostgreSQL database, and then analyzed in-depth using a Jupyter Notebook. The analysis explores various business-centric questions and generates interactive visualizations with Plotly to uncover insights into restaurant trends and user behavior.
+This project provides a comprehensive framework for performing an Extract, Transform, Load (ETL) process on the official Yelp Academic Dataset. Data is extracted from large JSON files, loaded into a PostgreSQL database, and then analyzed in-depth using a Jupyter Notebook. The analysis explores various business-centric questions and generates interactive visualizations with Matplotlib to uncover insights into restaurant trends and user behavior.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ This project is divided into two main components:
 
 1.  **ETL Pipeline (`etl_pipeline.py`)**: A robust Python script that handles the end-to-end process of reading the Yelp JSON files, performing basic data cleaning and transformation, and efficiently loading the data into a structured PostgreSQL database.
 
-2.  **Data Analysis (`analysis.ipynb`)**: A Jupyter Notebook that serves as the analytical workbench. It connects to the populated database, executes SQL queries to aggregate and filter data, and uses the Plotly library to create a rich set of interactive visualizations to answer key business questions.
+2.  **Data Analysis (`analysis.ipynb`)**: A Jupyter Notebook that serves as the analytical workbench. It connects to the populated database, executes SQL queries to aggregate and filter data, and uses the Matplotlib library to create a rich set of interactive visualizations to answer key business questions.
 
 For a detailed report of the insights discovered during the analysis, please see the **[FINDINGS.md](FINDINGS.md)** file.
 
@@ -33,7 +33,7 @@ The ETL process creates five interconnected tables in the database. The relation
 - **Backend**: Python 3.8+
 - **Database**: PostgreSQL
 - **ETL & Data Manipulation**: Pandas, SQLAlchemy
-- **Data Visualization**: Plotly
+- **Data Visualization**: Matplotlib
 - **Interactive Environment**: Jupyter Notebook
 
 ## Setup and Installation
@@ -110,8 +110,6 @@ jupyter-lab
 │   └── ...
 ├── .gitignore
 ├── analysis.ipynb        # Jupyter Notebook for data analysis (GitHub-compatible)
-├── analysis_github_fixed.ipynb  # Fixed version for GitHub rendering
-├── fix_notebook_for_github.py   # Script to fix notebook for GitHub
 ├── config.py             # Local DB configuration (ignored by Git)
 ├── config_template.py    # Template for config file
 ├── etl_pipeline.py       # Main ETL script

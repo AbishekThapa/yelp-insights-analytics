@@ -1,6 +1,6 @@
 # Yelp Dataset Analysis: Key Findings and Insights
 
-This report summarizes the major findings from the analysis of the Yelp Academic Dataset. The goal was to explore the characteristics of businesses, understand user behavior, and identify key trends that could inform business strategy. The analysis was conducted using SQL queries on a PostgreSQL database and visualized using Plotly.
+This report summarizes the major findings from the analysis of the Yelp Academic Dataset. The goal was to explore the characteristics of businesses, understand user behavior, and identify key trends that could inform business strategy. The analysis was conducted using SQL queries on a PostgreSQL database and visualized using Matplotlib.
 
 ## Table of Contents
 1.  [Hypotheses](#1-hypotheses)
